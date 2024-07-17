@@ -1,0 +1,62 @@
+Project Fero’ 
+
+By,
+C. Rahul Reddy
+Virat Mankali
+K. Bhavesh Reddy
+Jashwanth Vasadi
+
+ 
+
+INTRODUCTION
+
+Project Fero’ is an initiative which mainly focuses on providing smart, user friendly and multipurpose public transportation system to common people in a digitalized way through website and mobile application. The word “Fero” translates to trip in Icelandic. We aim to provide necessary public transportations to common people like bus, train and metro through systematic and organized way for easy and efficient booking so that the travelling is made reliable and comfortable with few clicks with less time taking multipurpose features included.  
+PRODUCT DETAILING
+
+     In a vast populated country like India, traffic management and pollution have always been a major concern, but with our solution there will be increase in public transport and decrease in pollution and traffic congestion. Our initiative aims to provide easy and smart tracking and booking system with multipurpose travelling features that include different kinds of public transport authorized by government such as busses, trains and metro trains so that you could reach your destination in easier and efficient way with less time to spend on travelling and booking while you can spend more time to on your desired work. It is a tracking and booking featured system with which you can track yourself on the navigational map which automatically shows public transport vehicles around you in a certain radius by which you can book the desired transport to your desired destination through direct vehicle selection or search system. Then features like pictorial tracking of the vehicle allows you to navigate and track yourself easy. Booking system involves payment method page which will help you to book tickets through online directly allowing and contacting you directly to the vehicle in charge, allowing you by giving access to features like information regarding your travel trip with which you can directly on board the booked vehicle which saves your time as well as stress. Along with this additionally we are aiming to add a safety feature for the users if in case for uncertainties where you can just shake your phone for 5 times with which you’ll be directly sending an “HELP ME” message to the admin control room by which the admin team will verify the message and react on it if you're in real trouble and will send you the nearest help team including police and medical care members asap for your necessary help. 
+KEY FEATURES
+
+1.	Self tracking and pictorial navigation
+2.	All in one public transport booking
+3.	Direct payment method
+4.	Security and safety 
+5.	User – Admin – Vehicle incharge direct access information
+
+
+PROTOTYPE APPLICATION DEVELOPMENT  :-
+
+
+1.	The following picture showcases the main page of the application in which the user has to sign-up at first and later on login using his saved credentials so that user won’t find any trouble while he wants to look back at his previous encounters. We have additionally included smart and efficient ways of signing up into the application through Facebook, Google and LinkedIn user profiles so that the given information will be stored in for future purposes such as booking and payment dealing.
+
+ 
+
+
+2.	The following picture is the home page where the user can find access to see his profile, previous bookings and additional information such as customer care and app details. In this the user can make his/her way about forward by clicking  START YOUR JOURNEY .  
+ 
+
+
+3.	The following picture shows us the in-detail features of selecting your desired public transport system by which you want to travel to your desired destination.
+ 
+
+4.	The following pictures show the selected transport system page  respectively according to the user comfort
+
+  - BUS
+
+  - METRO TRAIN
+
+  - TRAIN
+
+
+5.	The following picture showcases the pictorial navigation of the user for better understanding
+ 
+
+OBJECTIVES OF THE PROJECT  :-
+1.  Providing smart and user-friendly public transportation tracking         	  and booking system.
+2.  Better reliability and more efficiency.
+3.  Enhancing safety and security features.
+4.  Multipurpose booking and tracking system without any inconvenience.
+
+EXPECTED POTENTIAL OUTCOMES : -
+1.  Increase in more usage and ridership of public transport. 
+2.  Decrease in traffic congestion and pollution by using more public transport means.
+3.  Economic growth and public safety.
