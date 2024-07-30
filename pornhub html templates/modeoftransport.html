@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modeoftransport.css') }}">
+    <script src="{{ url_for('static', filename='js/modeoftransport.js') }}" defer></script>
+    <title>Fero</title>
+</head>
+<body>
+    <div class="navbar">
+        <h2><a href="#">Fero</a></h2>
+        <ul>
+            <li><a href="#" class="activenav">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Recent Bookings</a></li>
+            <li><a href="#">Customer Care</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </div>
+
+    <div class="quotemain">
+        <h1>Your One Stop Solution For All</h1>
+    </div>
+
+    <div class="quotesub">
+        <h1>Choose Your Mode Of Transport</h1>
+    </div>
+
+    <div class="buttons">
+
+        <form action="{{ url_for('buss_mode') }}" method="get">
+            <button class="bus" type="submit">Bus</button>
+        </form>
+
+        <form action="{{ url_for('train_mode') }}" method="get">
+            <button class="train">Train</button>
+        </form>
+        
+        <form action="{{ url_for('metro_mode') }}" method="get">
+            <button class="metro">Metro</button>
+        </form>
+        
+    </div>
+</body>
+</html>
