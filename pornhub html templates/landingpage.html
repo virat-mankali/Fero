@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/landingpage.css') }}">
+    <script src="{{ url_for('static', filename='js/landingpage.js') }}" defer></script>
+    <title>Fero</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <h2><a href="#">Fero</a></h2>
+        <ul>
+            <li><a href="#" class="activenav">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Recent Bookings</a></li>
+            <li><a href="#">Customer Care</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </div>
+
+    <div class="welcometextdiv">
+        <h1 class="welcometext1">Welcome Back, <span class="welcometext">{{ name }}</span></h1>
+    </div>
+
+    <div class="entryquote">
+        <h1 class="quotel1">Where Your Journey Begins..!</h1>
+    </div>
+
+    <div class="button">
+        <form action="{{ url_for('mode_of_transport') }}" method="get">
+            <button class="startjourney" type="submit">Start Your Journey</button>
+        </form>
+    </div>
+      
+</body>
+</html>
