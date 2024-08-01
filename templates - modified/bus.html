@@ -1,1 +1,36 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bus.css">
+    <script src="{{ url_for('static', filename='js/modeoftransport.js') }}" defer></script>
+    <title>Fero'</title>
+</head>
+<body>
+    <div class="navbar">
+        <h2><a href="#">Fero'</a></h2>
+        <ul>
+            <li><a href="ph_loadingpage.html" >Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#">Recent Bookings</a></li>
+            <li><a href="customercare.html">Customer Care</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </div>
+
+    <div class="quotemain">
+        <h1>Track or Travel</h1>
+    </div>
+    <div class="buttons">
+        <button>Track</button>
+        <button onclick="navigateToBusTravelPage()">Travel</button>
+    </div>
+    <script>
+        function navigateToBusTravelPage() {
+            window.location.href = 'bustravel.html';
+        }
+    </script>
+</body>
+</html>
