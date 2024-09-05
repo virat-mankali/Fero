@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/modeoftransport.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Fero'</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h2><a href="{{ url_for('landing') }}">Fero'</a></h2>
+        <ul>
+            <li><a href="{{ url_for('landing') }}" class="activenav">Home</a></li>
+            <li><a href="#">Recent Bookings</a></li>
+            <li><a href="{{ url_for('profile') }}">Profile</a></li>
+            <li><a href="#"><i class="fa fa-bars"></i></a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="{{ url_for('terms') }}">Terms Of Services</a></li>
+                        <li><a href="{{ url_for('privacypolicy') }}">Privacy Policy</a></li>
+                        <li><a href="{{ url_for('customer_care') }}">Customer Care</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="quotemain">
+        <h1>Your One Stop Solution For All</h1>
+    </div>
+
+    <div class="quotesub">
+        <h1>Choose Your Mode Of Transport</h1>
+    </div>
+
+    <div class="buttons">
+        <form action="{{ url_for('buss_mode') }}" method="get">
+            <button class="bus" type="submit">Bus</button>
+        </form>
+
+        <form action="{{ url_for('train_mode') }}" method="get">
+            <button class="train" type="submit">Train</button>
+        </form>
+
+        <form action="{{ url_for('metro_mode') }}" method="get">
+            <button class="metro" type="submit">Metro</button>
+        </form>
+        
+    </div>
+
+
+</body>
+</htm

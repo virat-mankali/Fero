@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/metrotravel.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Fero'</title>
+</head>
+<body>
+    <div class="navbar">
+        <h2><a href="{{ url_for('landing') }}">Fero'</a></h2>
+        <ul>
+            <li><a href="{{ url_for('metro_mode') }}">Back <i class="fa fa-chevron-right"></i></a></li>
+            <!-- <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#">Recent Bookings</a></li>
+            <li><a href="customercare.html">Customer Care</a></li>
+            <li><a href="#">Profile</a></li> -->
+        </ul>
+    </div>
+
+    <div class="quotemain">
+        <h1>Book your ticket now!</h1>
+    </div>
+    <div class="container">
+        <div>
+            <div class="From">
+                <div class="value">
+                    <input class="frombox" type="text" placeholder="From Station" list="from list"><datalist id="from list" required>
+                        <option value="Ameerpet">
+                        <option value="Miyapur">
+                        </datalist>
+                    <input class="tobox" type="text" placeholder="To Station" list="to list"><datalist id="to list" required>
+                        <option value="Ameerpet">
+                        <option value="Miyapur">
+                        </datalist>
+                    <input class="date" type="text" placeholder="No Of Tickets" list="list"><datalist id="list" required>
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                        </datalist>
+                    <button class="search" type="submit">PROCEED TO PAY</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

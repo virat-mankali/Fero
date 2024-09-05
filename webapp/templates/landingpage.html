@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/landingpage.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Fero'</title>
+</head>
+<body>
+    <div class="navbar">
+        <h2><a href="#">Fero'</a></h2>
+        <ul>
+            <li><a href="{{ url_for('landing') }}" class="activenav">Home</a></li>
+            <li><a href="#">Recent Bookings</a></li>
+            <li><a href="{{ url_for('profile') }}">Profile</a></li>
+            <!-- <li><a href="profile.html"><i class="fa fa-user"></i></a></li> -->
+            <li><a href="#"><i class="fa fa-bars"></i></a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="{{ url_for('terms') }}">Terms Of Services</a></li>
+                        <li><a href="{{ url_for('privacypolicy') }}">Privacy Policy</a></li>
+                        <li><a href="{{ url_for('customer_care') }}">Customer Care</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="welcometextdiv">
+        <h1 class="welcometext1">Welcome Back, <span class="welcometext">{{ name }}</span></h1>
+    </div>
+
+    <div class="entryquote">
+        <h1 class="quotel1">Where Your Journey Begins..!</h1>
+    </div>
+
+    <div class="button">
+        <form action="{{ url_for('mode_of_transport') }}" method="get">
+            <button class="startjourney" type="submit">Start Your Journey</button>
+        </form>
+    </div>
+
+</body>
+</html>

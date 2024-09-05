@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/traintravel.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <title>Fero'</title>
+</head>
+<body>
+    <div class="navbar">
+        <h2><a href="{{ url_for('landing') }}">Fero'</a></h2>
+        <ul>
+            <li><a href="{{ url_for('train_mode') }}">Back <i class="fa fa-chevron-right"></i></a></li>
+            <!-- <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#">Recent Bookings</a></li>
+            <li><a href="customercare.html">Customer Care</a></li>
+            <li><a href="#">Profile</a></li> -->
+        </ul>
+    </div>
+
+    <div class="quotemain">
+        <h1>Book Your Train Ticket!</h1>
+    </div>
+    <div class="container">
+        <div>
+            <div class="options">
+                <input type="radio" name="train" id="booking" class="check1" checked>
+                <label for="booking">Book Train Tickets</label>
+
+                <input type="radio" name="train" id="PNR" class="check2">
+                <label for="PNR">Check PNR Status</label>
+            </div>
+            <div class="value">
+                <input class="frombox" type="text" placeholder="From Station" list="from-list">
+                <datalist id="from-list">
+                    <option value="Madhapur">
+                    <option value="Kukatpally">
+                </datalist>
+                <!-- <img class="image" src="swap.png" alt="swap"> -->
+                <input class="tobox" type="text" placeholder="To Station" list="to-list">
+                <datalist id="to-list">
+                    <option value="Madhapur">
+                    <option value="Kukatpally">
+                </datalist>
+                <input class="date" type="datetime-local" placeholder="DD/MM/YYYY" onfocus="this.type='date'">
+                <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+                <script>flatpickr("input[type=datetime-local]", {});</script>
+                <button class="search" type="submit">SEARCH TRAIN</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

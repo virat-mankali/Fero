@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/customercare.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Fero'</title>
+</head>
+<body>
+    <div class="navbar">
+        <h2><a href="{{ url_for('landing') }}">Fero'</a></h2>
+        <ul>
+            <li><a href="{{ url_for('landing') }}"class="activenav" >Back <i class="fa fa-chevron-right"></i></a></li>
+            <!-- <li><a href="#">Recent Bookings</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="#"><i class="fa fa-bars"></i></a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="TERMS.HTML">Terms Of Services</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                        <li><a href="customercare.html" class="activenav">Customer Care</a></li>
+                    </ul>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+
+    <div class="quotemain">
+        <h1>Contact us</h1>
+    </div>
+
+    <div class="quotesub">
+        <h1>We're here to help and answer any questions you have.</h1>
+    </div>
+
+    <div class="contact-info">
+        <p><a href="tel:+919553921308">Call us: +919553921308</a></p>
+        <p><a href="mailto:support@fero.co.in">Email: support@fero.co.in</a></p>
+        <p><a href="https://www.google.com/maps/dir//Kamkole,+Sadasivpet,+Hyderabad,+Telangana+502345/@17.6496895,77.7585259,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc9533c6aaaaaab:0x4f10ac8424d0d1dc!2m2!1d77.7997255!2d17.649612?entry=ttu">Location: Woxsen University</a></p>
+    </div>
+</body>
+</html>
