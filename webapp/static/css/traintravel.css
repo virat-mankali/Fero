@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #212529;
+}
+
+.navbar h2 a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 9px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 70px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.5s, color 0.5s;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover, .navbar ul li :hover {
+    background-color: rgb(255, 157, 0);
+    color: black;
+}
+
+.quotemain h1 {
+    font-size: 50px;
+    color: rgb(255, 157, 0);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+
+.frombox, .tobox, .date, .search {
+    width: 220px;
+    height: 100px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: none;
+    color: #212529;
+}
+
+.frombox {
+    border-radius: 15px 0 0 15px;
+}
+
+.search {
+    border-radius: 0 15px 15px 0;
+    padding-left: 0px;
+    background-color: rgb(255, 157, 0); 
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.search:hover {
+    background-color: rgb(248, 173, 52); 
+}
+
+.image {
+    width: 90px;
+    background-color: white;
+    height: 80px;
+}
+
+.options {
+    color: rgb(140, 255, 0);
+    margin-left: 32%;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.check1, .check2 {
+    transform: scale(1.5);
+}
+
+.check2{
+    margin-left: 200px;
+}

@@ -1,0 +1,161 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+* {
+    margin: 0;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #212529;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 70px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar h2 a {
+    color: aliceblue;
+    font-size: 40px;
+    padding: 9px;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    margin-left: 30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.navbar ul li .activenav {
+    color: rgb(255, 157, 0);
+}
+
+.navbar ul li a:hover, .navbar ul li .activenav:hover {
+    background-color: rgb(255, 157, 0);
+    color: black;
+}
+
+.navbar ul li:hover .dropdown {
+    display: block; 
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    background-color: #212529;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.dropdown ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown ul li {
+    padding: 10px 20px;
+    width: 200px;
+}
+
+.dropdown ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.dropdown ul li a:hover {
+    background-color: rgb(255, 157, 0);
+    color: black;
+    border-radius: 5px;
+}
+
+.quotemain h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.quotemain h1 span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.quotemain h1 span.fade {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.quotesub h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(102, 255, 0);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 300px;
+}
+
+.buttons button {
+    font-size: 36px;
+    padding: 15px 40px;
+    background-color: #dd5d00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s, transform 0.5s;
+    border-radius: 20px;
+}
+
+.buttons button:hover {
+    background-color: #ff9649;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.buttons button.clicked {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
