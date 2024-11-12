@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="profile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <title>Fero'</title>
+</head>
+<body>
+    <header>
+        <img class="woxsen-logo" src="woxsen_logo.jpg" href="#" alt="woxsen-logo" width="220px" height="150px">
+        <img class="fero-logo" src="fero.png" href="#" alt="fero-logo" width="220px" height="150px">
+    </header>
+    <a href="home.html" class="back"><i class="fa fa-chevron-left back" style="font-size:30px"></i>Back</a>
+
+    <div class="profile-container">
+        <div class="profile-header">
+            <div class="profile-picture"></div>
+            <button class="edit-button">Edit</button>
+        </div>
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="" disabled selected>Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="female">Others</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="woxsenMail">Woxsen Mail</label>
+            <input type="email" id="woxsenMail" placeholder="Mail ID">
+        </div>
+        <div class="form-group">
+            <label for="mobileNo">Mobile No</label>
+            <input type="tel" id="mobileNo" placeholder="Number">
+        </div>
+        <div class="form-group">
+            <label for="woxsenID">Woxsen ID</label>
+            <input type="text" id="woxsenID" placeholder="ID number">
+        </div>
+        <div class="form-group">
+            <label for="school">School</label>
+            <select id="school">
+                <option value="" disabled selected>Select</option>
+                <option value="school1">School Of Technology</option>
+                <option value="school2">School Of Bussiness</option>
+                <option value="school2">School Of Arts</option>
+                <option value="school2">School Of Design</option>
+                <option value="school2">School Of Architechure</option>
+                <option value="school2">School Of Law</option>
+                <option value="school2">School Of Science</option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>

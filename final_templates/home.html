@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FERO'</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="home.css"> 
+</head>
+<body>
+    <header>
+        <img class="woxsen-logo" src="woxsen_logo.jpg" href="#" alt="woxsen-logo" width="220px" height="150px">
+        <img class="fero-logo" src="fero.png" href="#" alt="fero-logo" width="220px" height="150px">
+    </header>
+
+    <section class="navbar">
+        <div>
+            <button>
+                <a href="#" class="btn2"><span class="spn2">Profile</span></a>
+            </button>
+            <button>
+                <a href="#" class="btn2"><span class="spn2">Tracking</span></a>
+            </button>
+            <button>
+                <a href="#" class="btn2"><span class="spn2">Booking</span></a>
+            </button>
+            <button>
+                <a href="#" class="btn2"><span class="spn2">Support</span></a>
+            </button>
+        </div>
+    </section>
+
+    <section class="route">
+        <div class="input">
+            <input type="text" name="from"
+                id="from" list="from list" placeholder="From">
+                <datalist id="from list">
+                <option value="Woxsen University">
+                <option value="Jubilee Hills">
+                <option value="Miyapur">
+                </datalist>
+    
+            <input type="text" name="to"
+                id="to" list="to list" placeholder="To">
+                <datalist id="to list">
+                <option value="Jubilee Hills">
+                <option value="Miyapur">
+                <option value="Woxsen University">
+                </datalist>
+    
+            <input class="date" type="datetime-local" placeholder="DD/MM/YYYY" onfocus="this.type='date'">
+                <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+                <script>flatpickr("input[type=datetime-local]", {});</script>
+        </div>
+    </section>
+
+    <button class="proceed">Proceed</button>
+</body>
+</html>
