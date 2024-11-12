@@ -1,0 +1,62 @@
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.stop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    background-color: #fff;
+    border: 2px solid #8b5e3c; /* Adjusted brown color */
+    border-radius: 15px;
+    margin: 0 5px;
+    min-width: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling for time text */
+.time {
+    font-size: 0.85em;
+    color: #555;
+    margin-top: 4px;
+    font-weight: normal;
+}
+
+/* Arrows connecting the stops */
+.arrow {
+    width: 40px;
+    height: 2px;
+    background-color: #8b5e3c; /* Adjusted brown color */
+    position: relative;
+}
+
+/* Arrowheads */
+.arrow:after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #8b5e3c; /* Same brown color */
+    border-bottom: 5px solid transparent;
+}
+
+.woxsen-logo{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.fero-logo{
+    margin-left: 29%;
+}

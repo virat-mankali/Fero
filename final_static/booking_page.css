@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.woxsen-logo{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.fero-logo{
+    margin-left: 29%;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.card {
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    padding: 30px;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-left: 23%;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.label {
+    font-weight: normal;
+    font-size: 1em;
+    color: #666;
+}
+
+.value {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: #eaeaea;
+    padding: 12px 18px; 
+    border-radius: 10px;
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+    font-weight: 500;
+}

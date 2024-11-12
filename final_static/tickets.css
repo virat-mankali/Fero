@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.woxsen-logo{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.fero-logo{
+    margin-left: 29%;
+}
+
+/* .navbar{
+    margin-top: 50px;
+    margin-left: 27%;
+}
+
+.btn2 {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #fefefe;
+    text-transform: uppercase;
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+    margin-right: 30px;
+}
+
+.btn2::before {
+content: '';
+position: absolute;
+top: -2px;
+left: -2px;
+width: calc(100% + 4px);
+height: calc(100% - -2px);
+background-color: #212121;
+transition: 0.3s ease-out;
+transform: scaleY(1);
+}
+
+.btn2::after {
+content: '';
+position: absolute;
+top: -2px;
+left: -2px;
+width: calc(100% + 4px);
+height: calc(100% - 50px);
+background-color: #212121;
+transition: 0.3s ease-out;
+transform: scaleY(1);
+}
+
+.btn2:hover::before {
+transform: translateY(-25px);
+height: 0;
+}
+
+.btn2:hover::after {
+transform: scaleX(0);
+transition-delay: 0.15s;
+}
+
+.btn2:hover {
+border: 2px solid #212121;
+color: #212121;
+}
+
+.btn2 span {
+position: relative;
+z-index: 3;
+}
+
+button {
+text-decoration: none;
+border: none;
+background-color: transparent;
+} */
+
+
+.back{
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.back:hover{
+    text-decoration: underline;
+}
+
+.booking-card {
+    width: 460px; 
+    height: 510px; 
+    border: 1px solid #000;
+    padding: 40px 40px 70px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.loc {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.dots {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0; 
+    text-align: center;
+    font-size: 30px;
+}
+
+.times {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.endtime {
+    margin-top: 130px; 
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 3px solid black;
+}
+
+.fd{
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.fare-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+.book-btn {
+    width: 60%;
+    padding: 15px; 
+    margin-top: 50px;
+    background-color: #212121;
+    color: #fefefe;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px; 
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background-color: #494949;
+}
+
+
+
+.container {
+    display: flex;
+}
+
+.booking-card {
+    width: 460px; 
+    height: 500px; 
+    border: 1px solid #000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:25% ;
+}
+
+.upload img {
+    width: 200px; 
+}
+
+.upload button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #212121;
+    color: #fefefe;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.upload button:hover {
+    background-color: #494949;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .upload {
+        margin-top: 20px;
+    }
+}
+
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+    .booking-card {
+        width: 100%;
+        padding: 30px;
+        font-size: 16px;
+    }
+
+    .book-btn {
+        padding: 10px;
+        font-size: 18px;
+    }
+}
